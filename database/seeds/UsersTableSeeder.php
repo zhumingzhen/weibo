@@ -18,6 +18,7 @@ class UsersTableSeeder extends Seeder
         $user = User::find(1);
         $user->name = 'zhumingzhen';
         $user->email = 'itdream6@163.com';
+        $user->is_admin = true;
         $user->save();
     }
 }
